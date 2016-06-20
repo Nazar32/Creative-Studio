@@ -1,0 +1,245 @@
+@import url(reset.css);
+
+body {
+	font: 12px/1.6 Arial, Tahoma, Verdana, sans-serif;
+	color: #5d5d5d;
+	background-color: #f4f4f4;
+}
+
+a {
+	color: #fe9b00;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 7px 0; 
+}
+
+h2, h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #090909;
+	text-transform: uppercase;
+}
+
+h2 {
+	background: url(../images/arrow.png) no-repeat 0 11px;
+	padding-left: 28px;
+	margin-bottom: 11px;
+}
+
+h3 {
+	background: url(../images/small-arrow.png) no-repeat 0 8px;
+ 	padding-left: 22px;
+ 	margin-bottom: 20px;
+}
+
+.active, a:hover {
+	color: #090909;
+}
+
+#top-line {
+	background: #090909;
+	height: 16px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	padding: 20px 0 16px 0;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;	 
+}
+
+#logo {
+	width: 183px;
+	height: 100px;
+	float: left;
+}
+
+#menu {
+	float: right;
+ 	margin-top: 80px;
+}
+
+#menu ul li{
+	float: left;
+	margin-left: 63px;
+}
+
+#header-image {
+	height: 380px;
+	background: url(../images/header-image.jpg) no-repeat;
+	margin-top: 20px;
+	border-bottom: 1px solid #c0c0c0;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+#black-box {
+	width: 444px;
+	height: 43px;
+	background: #090909;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	color: #999898;
+	position: absolute;
+	left: 35px;
+	bottom: 68px;
+}
+
+#black-box p {
+	margin: 14px 12px;
+	line-height: 1;
+}
+
+#black-box a {
+	float: right;
+
+}
+
+#black-box a:hover{
+	color: #e88e01;
+}
+
+#content {
+	margin-top: 20px;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+	padding-bottom: 24px;
+}
+
+.content-box {
+	width: 285px;
+	float: left;
+	margin-right: 52px;
+}
+
+ 
+
+.content-box h2 {
+	border-bottom: 5px solid #090909;
+	padding-bottom: 3px;
+	margin-bottom: 16px;
+}
+
+.content-box li {
+	background: url(../images/check.png) 0 3px no-repeat;
+	padding-left: 28px;
+	margin-bottom: 12px;
+	line-height: 1.3;
+}
+
+.italic-text {
+	font-style: italic;
+	color: #090909;
+	margin-top: 20px;
+}
+
+#portfolio {
+	margin-top: 20px;
+	padding-bottom: 33px;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+}
+
+.portfolio-image {
+	width: 215px;
+	height: 135px;
+	float: left;
+	margin-right: 33px;
+	position: relative;
+}
+
+#last-portfolio-image, #content-box {
+	margin-right: 0;
+}
+
+.portfolio-image a {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #090909;
+	display: block;
+	background: #fe9b00;
+	padding: 5px 10px;
+	line-height: 1;
+}
+
+#bottom-row {
+	margin-top: 22px;
+	overflow: hidden;
+}
+
+#info {
+	width: 660px;
+	float: left;
+
+}
+
+#social {
+	width: 220px;
+	float: right;
+}
+
+#social ul li {
+	float: left;
+	margin-right: 14px;
+}
+
+#footer {
+	background: #e2e2e2;
+	padding: 32px 0 36px 0;
+	margin-top: 34px;
+}
+
+#footer-content {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#footer-content a {
+	color: #5d5d5d;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+#footer-content a:hover {
+	text-decoration: underline;
+}
+
+#footer-content p {
+	margin: 3px 0 ;
+}
+
+#footer-content ul {
+	overflow: hidden;
+}
+
+#footer-content ul li {
+	float: left;
+	padding: 0 7px;
+	border-left: 1px solid #888;
+	line-height: 1;
+}
+
+#footer-content ul li:first-child {
+	padding-left: 0;
+	border: none;
+}
+
+#logo-footer {
+	width: 119px;
+	height: 64px;
+	background: url(../images/logo-footer.png) no-repeat;
+	position: absolute;
+	top: -12px;
+	right: 0;
+}
